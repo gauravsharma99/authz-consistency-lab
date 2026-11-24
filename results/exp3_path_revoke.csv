@@ -1,0 +1,6 @@
+entry_point,mean_s,p95_s,max_s
+Full path (gateway -> orders -> ledger),1.2,2.1,2.7
+Gateway check alone (JWT),152.5,282.7,300.2
+Orders check alone (introspection),15.3,28.6,29.8
+Ledger check alone (push),1.2,2.1,2.7
+Unchecked internal service,never,never,never

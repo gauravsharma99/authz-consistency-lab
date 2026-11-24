@@ -1,0 +1,6 @@
+config,description,requests_per_s,idp_calls_per_s,idp_calls_per_1000_requests
+A,"JWT only, 60-min token",1000,0.03,0.03
+B,"JWT only, 5-min token + refresh",1000,0.57,0.57
+C,"Introspection, 30-s cache",1000,6.73,6.73
+D,5-min JWT + pushed revocation,1000,0.57,0.57
+E,"Introspection, no cache (synchronous)",1000,1000.03,1000.03

@@ -1,0 +1,6 @@
+config,description,mean_s,p95_s,max_s
+A,"JWT only, 60-min token",1752.6,3430.0,3577.2
+B,"JWT only, 5-min token + refresh",146.2,285.8,298.1
+C,"Introspection, 30-s cache",14.8,28.4,29.5
+D,5-min JWT + pushed revocation,1.2,2.2,2.7
+E,"Introspection, no cache (synchronous)",0.3,0.5,0.5
